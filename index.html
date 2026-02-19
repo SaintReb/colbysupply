@@ -1,30 +1,221 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Colby Supply</title>
-<link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Colby Supply provides marine and industrial supplies with locations in New Orleans, LA and Houston, TX." />
+  <title>Colby Supply | Marine & Industrial Supply</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
-<header>
-  <h1>Marine & Industrial Supply When Downtime Is Not An Option</h1>
-  <a href="quote.html" class="btn">Request a Quote</a>
-  <a href="tel:15047310331" class="btn call">Call Now</a>
-</header>
-<section>
-<h2>Industries Served</h2>
-<ul>
-<li>Marine & Offshore</li>
-<li>Warehousing</li>
-<li>Fabrication</li>
-<li>Municipal</li>
-</ul>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header>
+    <div class="container">
+      <div class="topbar" role="navigation" aria-label="Primary">
+        <a class="brand" href="index.html">
+          <img src="assets/img/colby-logo.jpg" alt="Colby Supply" />
+        </a>
+
+        <nav aria-label="Main navigation">
+          <div class="nav-links">
+              <a href="index.html" aria-current="page">Home</a>
+              <a href="products.html">Products</a>
+              <a href="catalog.html">Catalog</a>
+              <a href="about.html">About</a>
+              <a href="contact.html">Contact</a>
+          </div>
+
+          <a class="cta" href="quote.html">Request a Quote</a>
+          <button class="menu-btn" type="button" data-menu-button aria-expanded="false" aria-controls="mobile-panel">
+            Menu
+          </button>
+        </nav>
+      </div>
+
+      <div id="mobile-panel" class="mobile-panel" data-mobile-panel hidden>
+            <a href="index.html" aria-current="page">Home</a>
+            <a href="products.html">Products</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a class="cta" href="quote.html" style="margin-top:10px;">Request a Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="kicker" aria-label="Locations">
+          Serving New Orleans, Louisiana and Houston, Texas
+        </div>
+        <h1>Marine &amp; Industrial Supplies—delivered with speed and experience.</h1>
+        <p class="lede">
+          Colby Supply supports vessels, contractors, and industrial teams with dependable products, responsive service, and fast fulfillment.
+        </p>
+
+        <div class="hero-actions">
+          <a class="cta" href="quote.html">Request a Quote</a>
+          <a class="cta secondary" href="products.html">Browse Products</a>
+          <a class="cta secondary" href="contact.html">Contact</a>
+        </div>
+
+        <div class="pills" style="margin-top:16px;" aria-label="Key highlights">
+          <span class="pill"><strong>Fast</strong> turnaround</span>
+          <span class="pill"><strong>Marine</strong> + industrial</span>
+          <span class="pill"><strong>Two</strong> locations</span>
+        </div>
+      </div>
+
+      <aside class="card hero-card" aria-label="Quick contact">
+        <div>
+          <h2>Need something ASAP?</h2>
+          <p>Call or email and we’ll route you to the right team.</p>
+        </div>
+
+        <div class="grid-2" style="gap:10px;">
+          <div class="card" style="padding:14px;">
+            <div style="font-weight:700;">New Orleans</div>
+            <div style="color:var(--muted); margin-top:4px;">267 Hord Street</div>
+            <div style="margin-top:8px;"><a class="cta secondary" href="tel:+15047310331" style="width:100%; justify-content:center;">504.731.0331</a></div>
+          </div>
+          <div class="card" style="padding:14px;">
+            <div style="font-weight:700;">Houston</div>
+            <div style="color:var(--muted); margin-top:4px;">12820 Industrial Road</div>
+            <div style="margin-top:8px;"><a class="cta secondary" href="tel:+17134975412" style="width:100%; justify-content:center;">713.497.5412</a></div>
+          </div>
+        </div>
+
+        <div>
+          <a class="cta" href="mailto:sales@colbysupply.com" style="width:100%; justify-content:center;">Email sales@colbysupply.com</a>
+          <div class="small" style="margin-top:8px;">
+            Fax (New Orleans): <a href="tel:+15047310332">504.731.0332</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
 </section>
-<footer>
-<p>267 Hord St, New Orleans, LA 70123</p>
-<p>(504) 731-0331</p>
-</footer>
-<script src="js/mobile-call.js"></script>
+
+<section>
+  <div class="container">
+    <div class="section-title">
+      <h2>What we supply</h2>
+      <p>Clean navigation and scannable categories—built for busy crews and purchasing teams.</p>
+    </div>
+
+    <div class="grid-3">
+      <div class="card tile">
+        <h3>Marine Supplies</h3>
+        <p>Gear and essentials for vessels, docks, and marine operations.</p>
+        <a href="marine.html">Explore marine supplies →</a>
+      </div>
+
+      <div class="card tile">
+        <h3>Industrial Supplies</h3>
+        <p>Worksite and plant essentials for maintenance, safety, and operations.</p>
+        <a href="industrial.html">Explore industrial supplies →</a>
+      </div>
+
+      <div class="card tile">
+        <h3>Safety &amp; Spill Response</h3>
+        <p>PPE, safety gear, and spill response supplies to keep teams compliant and protected.</p>
+        <a href="products.html#safety">View safety categories →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="container">
+    <div class="section-title">
+      <h2>Why teams choose Colby</h2>
+      <p>Simple, professional, and built for repeat orders.</p>
+    </div>
+
+    <div class="feature-list" role="list">
+      <div class="feature" role="listitem">
+        <h3>Responsive service</h3>
+        <p>Get quick answers from people who know the products and the work.</p>
+      </div>
+      <div class="feature" role="listitem">
+        <h3>Fast fulfillment</h3>
+        <p>Two locations help shorten lead times and reduce downtime.</p>
+      </div>
+      <div class="feature" role="listitem">
+        <h3>Reliable sourcing</h3>
+        <p>We help you find the right option for your spec and budget.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-title">
+      <h2>Ready to order or request a quote?</h2>
+      <p>Tell us what you need and we’ll respond quickly.</p>
+    </div>
+
+    <div class="grid-2">
+      <div class="card tile">
+        <h3>Request a Quote</h3>
+        <p>Best for line items, specs, or bulk orders.</p>
+        <a href="quote.html">Start a quote request →</a>
+      </div>
+      <div class="card tile">
+        <h3>Contact</h3>
+        <p>Prefer phone or email? We’re here.</p>
+        <a href="contact.html">View contact details →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <strong style="color:#111315;">Colby Supply</strong>
+          <div class="small" style="margin-top:8px;">
+            Marine &amp; Industrial Supply • New Orleans, LA &amp; Houston, TX
+          </div>
+
+          <hr class="sep" />
+
+          <div class="small">
+            <div><strong style="color:#111315;">Email:</strong> <a href="mailto:sales@colbysupply.com">sales@colbysupply.com</a></div>
+            <div style="margin-top:6px;"><strong style="color:#111315;">New Orleans:</strong> 267 Hord Street, New Orleans, LA • <a href="tel:+15047310331">504.731.0331</a> • Fax <a href="tel:+15047310332">504.731.0332</a></div>
+            <div style="margin-top:6px;"><strong style="color:#111315;">Houston:</strong> 12820 Industrial Road, Houston, TX</div>
+          </div>
+        </div>
+
+        <div class="small">
+          <strong style="color:#111315;">Pages</strong>
+          <div style="margin-top:8px; display:grid; gap:6px;">
+            <a href="products.html">Products</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="quote.html">Request a Quote</a>
+          </div>
+
+          <hr class="sep" />
+
+          <div class="small">
+            © <span data-year></span> Colby Supply. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
